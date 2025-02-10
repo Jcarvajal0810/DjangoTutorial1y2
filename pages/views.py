@@ -5,11 +5,6 @@ from django.views import View
 from django import forms
 from .models import Product
 
-# Create your views here.
-#def homePageView(request):
-    # return HttpResponse('Hello, World!')
-    #return render(request, 'pages/home.html')
-
 class HomePageView(TemplateView):
     template_name = 'pages/home.html'
 
@@ -44,13 +39,6 @@ class ContactPageView(TemplateView):
 
         return context
 
-"""class Product:
-    products = [
-        {"id": "1", "name": "TV", "description": "Best TV", "price": 1000},
-        {"id": "2", "name": "iPhone", "description": "Best iPhone", "price": 1500},
-        {"id": "3", "name": "Chromecast", "description": "Best Chromecast", "price": 2000},
-        {"id": "4", "name": "Glasses", "description": "Best Glasses", "price": 500},
-    ]"""
 
 class ProductIndexView(View):
     template_name = 'products/index.html'
