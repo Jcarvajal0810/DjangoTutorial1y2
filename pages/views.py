@@ -31,7 +31,7 @@ class ContactPageView(TemplateView):
             "title": "Contact Us - Online Store",
             "subtitle": "Contact Us",
             "description": "This is a contact page...",
-            "author": "Develop by: Alejandro",
+            "author": "Develop by: Jose Carvajal",
             "email": "info@example.com",
             "address": "123 Main St, City, State, 12345",
             "phone": "555-555-5555",
@@ -117,3 +117,4 @@ class ProductListView(ListView):
         context['title'] = 'Products - Online Store'
         context['subtitle'] = 'List of products'
         return context
+        
