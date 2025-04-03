@@ -17,7 +17,7 @@ class AboutPageView(TemplateView):
             "title": "About Us - Online Store",
             "subtitle": "About Us",
             "description": "This is an about page...",
-            "author": "Develop by: Alejandro Hinestroza"
+            "author": "Develop by: Jose Manuel Carvajal Aristizabal"
         })
 
         return context
